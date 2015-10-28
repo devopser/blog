@@ -1,6 +1,7 @@
 markdown: rdiscount
 permalink: /:title/
 url: http://yonsm.net
+baseurl: /blog/
 name: Yonsm.NET
 author: Yonsm
 qq: 123018
