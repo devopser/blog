@@ -5,6 +5,7 @@ title: mysql接口与云信加密验证
 tags: openvpn 云信验证码 mysql
 categories: openvpn mysql
 ---
+
 ```python
 # coding:utf-8
 import os,sys,MySQLdb,commands,time,pycurl,cStringIO;
@@ -98,7 +99,7 @@ class checkvpn:
         if result['code']==0:
            return True
         return False
-        ```
+```
 
 
 
