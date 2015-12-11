@@ -5,7 +5,7 @@ title: mysql父子递归查询
 tags: mysql
 categories: mysql
 ---
-```mysql
+```mysqlf
 #父子表
 CREATE TABLE `treeNodes` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `nodename` varchar(40) DEFAULT NULL,  `pid` int(11) DEFAULT NULL,  PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8
 
